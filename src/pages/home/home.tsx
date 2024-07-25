@@ -57,7 +57,7 @@ const Home = () => {
       x: "-50%",
       opacity: 1,
       transition: {
-        duration: 0.2,
+        duration: 0.3,
       },
     },
   };
@@ -68,7 +68,7 @@ const Home = () => {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 0.2,
+        duration: 0.3,
       },
     },
   };
@@ -79,7 +79,7 @@ const Home = () => {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 0.2,
+        duration: 0.3,
       },
     },
   };
@@ -91,7 +91,7 @@ const Home = () => {
       x: 0,
       opacity: 1,
       transition: {
-        duration: 0.2,
+        duration: 0.3,
       },
     },
   };
@@ -101,7 +101,7 @@ const Home = () => {
     visible: {
       opacity: 1,
       transition: {
-        duration: 0.2,
+        duration: 0.3,
       },
     },
   };
@@ -111,7 +111,7 @@ const Home = () => {
     visible: {
       y: 0,
       transition: {
-        duration: 0.2,
+        duration: 0.3,
         delay: .4,
       },
     },
