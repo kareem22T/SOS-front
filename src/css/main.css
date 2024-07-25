@@ -946,6 +946,15 @@ color: #444444;
     }
 }
 
+.our-stories .swiper-slide {
+    margin-bottom: 40px;
+    padding: 8px;
+}
+
+.our-stories .swiper-pagination-bullet {
+    background-color: #0C3561;
+}
+
 footer {
     padding: 12px ;
     color: #fff;
