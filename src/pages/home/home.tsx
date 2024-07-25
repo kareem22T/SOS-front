@@ -57,7 +57,7 @@ const Home = () => {
       x: "-50%",
       opacity: 1,
       transition: {
-        duration: 0.4,
+        duration: 0.2,
       },
     },
   };
@@ -68,7 +68,7 @@ const Home = () => {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 0.4,
+        duration: 0.2,
       },
     },
   };
@@ -79,7 +79,7 @@ const Home = () => {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 0.4,
+        duration: 0.2,
       },
     },
   };
@@ -91,7 +91,7 @@ const Home = () => {
       x: 0,
       opacity: 1,
       transition: {
-        duration: 0.4,
+        duration: 0.2,
       },
     },
   };
@@ -101,7 +101,7 @@ const Home = () => {
     visible: {
       opacity: 1,
       transition: {
-        duration: 0.4,
+        duration: 0.2,
       },
     },
   };
@@ -111,7 +111,7 @@ const Home = () => {
     visible: {
       y: 0,
       transition: {
-        duration: 0.4,
+        duration: 0.2,
         delay: .4,
       },
     },
@@ -192,10 +192,7 @@ const Home = () => {
           </Swiper>
           <section className="why_we_are_here">
             <motion.div 
-              ref={ref}
               variants={container}
-              initial="hidden"
-              animate={inView ? 'visible' : 'hidden'}
             className="container">
               <motion.h1 variants={item4}>Why We’re Here</motion.h1>
               <motion.h2 variants={item4}>1 in 10 children and young people are separated from their families, abandoned, neglected.</motion.h2>
