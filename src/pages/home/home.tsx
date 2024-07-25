@@ -101,21 +101,11 @@ const Home = () => {
     visible: {
       opacity: 1,
       transition: {
-        duration: 0.3,
+        duration: 0.2,
       },
     },
   };
 
-  const item7 = {
-    hidden: { y: 24 },
-    visible: {
-      y: 0,
-      transition: {
-        duration: 0.3,
-        delay: .4,
-      },
-    },
-  };
 
   const [showSlides, setShowSlides] = useState([false, false, false]);
 
@@ -287,7 +277,7 @@ const Home = () => {
                   <div className="img">
                     <img src={article1} alt="" />
                   </div>
-                  <motion.div variants={item7} className="text">
+                  <motion.div className="text">
                     <div className="head">
                       <span className="cat">Adventure</span>
                       <span className="date">July 24, 2024</span>
@@ -308,7 +298,7 @@ const Home = () => {
                   <div className="img">
                     <img src={article2} alt="" />
                   </div>
-                  <motion.div variants={item7} className="text">
+                  <motion.div className="text">
                     <div className="head">
                       <span className="cat">New Family</span>
                       <span className="date">October 24, 2024</span>
@@ -329,7 +319,7 @@ const Home = () => {
                   <div className="img">
                     <img src={article3} alt="" />
                   </div>
-                  <motion.div variants={item7} className="text">
+                  <motion.div  className="text">
                     <div className="head">
                       <span className="cat">Funny</span>
                       <span className="date">April 24, 2024</span>
