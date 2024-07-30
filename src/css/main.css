@@ -141,7 +141,7 @@ header nav {
 }
 
 header nav .logo {
-    width: 130px;
+    width: 180px;
     object-fit: contain;
 }
 
@@ -358,7 +358,7 @@ header ul li.more {
         padding: 8px;
     }
     header nav .logo {
-        width: 130px;
+        width: 140px;
         width: 100px;
         margin-left: 2px;
     }
