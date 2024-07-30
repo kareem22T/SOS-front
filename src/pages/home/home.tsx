@@ -205,7 +205,7 @@ const Home = () => {
               </div>
             </div>
           </section>
-          <section className="statistics">
+          {/* <section className="statistics">
             <div className="container"
             >
               <div  className="card">
@@ -248,7 +248,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-          </section>
+          </section> */}
           <div className="our-stories">
             <div className="container"
             >
@@ -369,6 +369,7 @@ const Home = () => {
           </article>
         </SwiperSlide>
       </Swiper>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13811.894541157353!2d31.3515944!3d30.0662902!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14582244a5945363%3A0x62a47d4aaaf2bcb8!2sSOS%20Children&#39;s%20Villages%20Egypt!5e0!3m2!1sar!2seg!4v1722353378146!5m2!1sar!2seg" width="600" height="450" style={{border: "0px", width: "100%", padding: "16px", borderRadius: "8px", boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px", marginTop: "40px"}} loading="lazy"></iframe>
             </div>
           </div>
     </DefaultLayout>

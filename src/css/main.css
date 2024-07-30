@@ -89,7 +89,7 @@ header .lang-select .selected {
 
 header .lang-select .options {
     position: absolute;
-    z-index: 9999;
+    z-index: 9999999999999;
     top: calc(100% + 6px);
     left: 0;
     background: white;
@@ -141,7 +141,7 @@ header nav {
 }
 
 header nav .logo {
-    width: 210px;
+    width: 130px;
     object-fit: contain;
 }
 
@@ -359,6 +359,8 @@ header ul li.more {
     }
     header nav .logo {
         width: 130px;
+        width: 100px;
+        margin-left: 2px;
     }
     header nav .donate {
         display: flex;
@@ -960,4 +962,20 @@ footer {
     color: #fff;
     background-color: #0C3561;
     text-align: center;
+}
+
+.footer-menu {
+    list-style: none;display: flex;justify-content: center;align-items: center;gap: 24px;margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+    iframe {
+        height: 300px;
+    }
 }
