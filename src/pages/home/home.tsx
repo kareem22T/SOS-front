@@ -205,7 +205,7 @@ const Home = () => {
               </div>
             </div>
           </section>
-          {/* <section className="statistics">
+          <section className="statistics">
             <div className="container"
             >
               <div  className="card">
@@ -248,7 +248,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-          </section> */}
+          </section>
           <div className="our-stories">
             <div className="container"
             >

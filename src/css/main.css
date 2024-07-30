@@ -68,6 +68,18 @@ header .container .social svg {
     display: flex;
 }
 
+footer .social svg {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    fill: white;
+    color: white;
+}
+
+footer .social .icon-tabler-brand-x-filled {
+    stroke: #fff;
+}
+
 header .container svg:not(.icon-tabler-phone, .icon-tabler-mail, .icon-tabler-world, .icon-tabler-chevron-down) {
     color: #fff;
     fill: #fff;
@@ -118,6 +130,16 @@ header .container .social {
     display: flex;
     align-items: center;
     gap: 16px
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 24px;
 }
 
 header .top .container >div a {
