@@ -121,6 +121,7 @@ const Home = () => {
   };
   return (
     <DefaultLayout>
+      <button className="donate_btn">Donate Now</button>
           <Swiper
             spaceBetween={20}
             slidesPerView={1}

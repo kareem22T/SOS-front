@@ -83,6 +83,7 @@ const Header = () => {
                             <li><a href="">Stories</a></li>
                             <li><a href="">Support Us</a></li>
                             <li><a href="">Contact Us</a></li>
+                            <li><a href="">FAQ</a></li>
                             <li className="more">
                                 <div>
                                     <a href="">
