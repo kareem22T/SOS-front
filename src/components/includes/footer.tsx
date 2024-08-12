@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <footer>
-            @copy Right SOS Egypt 2024
+            Copyright © 2024 SOS Children's Village. All Rights Reserved.
             <div>
                 <ul className="footer-menu">
                 
